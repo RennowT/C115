@@ -53,8 +53,6 @@ cd '.\C115\Trabalho 1'
 
 #### 2. Configurar o Banco de Dados
 
-**Obs:** Caso o arquivo `questions.db` já exista, pode pular para o passo 3.
-
 Navegue até a pasta do servidor e execute o script para inicializar o banco de dados e inserir as questões de exemplo:
 
 ```bash

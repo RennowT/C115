@@ -48,6 +48,7 @@ def insert_sample_questions():
     ]
     conn = sqlite3.connect('questions.db')
     c = conn.cursor()
+    c.execute("DELETE FROM questions")
     c.executemany("INSERT INTO questions (question, options, correct_index) VALUES (?, ?, ?)", questions)
     conn.commit()
     conn.close()
