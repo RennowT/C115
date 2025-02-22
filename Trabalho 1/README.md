@@ -6,7 +6,7 @@ O objetivo deste projeto é criar um sistema cliente-servidor em Python, onde o 
 
 **Exemplo de questão:**
 
-```
+```plaintext
 Qual é a capital da Itália?
 
 1. Roma
@@ -21,7 +21,7 @@ Qual é a capital da Itália?
 
 O projeto está organizado da seguinte forma:
 
-```
+```plaintext
 .
 ├── server
 │   ├── server.py            # Código do servidor
@@ -42,7 +42,7 @@ O projeto está organizado da seguinte forma:
 
 ## Instruções de Uso
 
-#### 1. Preparar o Ambiente
+### 1. Preparar o Ambiente
 
 Clone o repositório do projeto e navegue até a pasta raiz:
 
@@ -51,7 +51,7 @@ git clone https://github.com/RennowT/C115
 cd '.\C115\Trabalho 1'
 ```
 
-#### 2. Configurar o Banco de Dados
+### 2. Configurar o Banco de Dados
 
 Navegue até a pasta do servidor e execute o script para inicializar o banco de dados e inserir as questões de exemplo:
 
@@ -69,7 +69,7 @@ insert_sample_questions()  # Insere questões de exemplo no banco de dados
 exit()  # Sai do interpretador Python
 ```
 
-#### 3. Iniciar o Servidor
+### 3. Iniciar o Servidor
 
 Na pasta `server`, execute o servidor:
 
@@ -79,7 +79,7 @@ python3 server.py
 
 O servidor estará aguardando conexões na porta `65432`.
 
-#### 4. Executar o Cliente
+### 4. Executar o Cliente
 
 Em outro terminal, navegue até a pasta `client` e execute o cliente:
 
@@ -111,9 +111,9 @@ O cliente se conectará ao servidor e começará a receber as questões.
 
 ## Exemplo de Interação
 
-#### Cliente:
+### Cliente
 
-```
+```plaintext
 Conectado ao servidor. Responda as questões:
 
 Qual é a capital da Itália?
@@ -147,15 +147,15 @@ Questão 3: ❌ Erro
 
 ## Detalhes Técnicos
 
-#### Banco de Dados (SQLite)
+### Banco de Dados (SQLite)
 
 - Tabela `questions`:
-    - `id`: Identificador único da questão.
-    - `question`: Texto da pergunta.
-    - `options`: Opções de resposta, separadas por `;`.
-    - `correct_index`: Índice da resposta correta (0 a 3).
+  - `id`: Identificador único da questão.
+  - `question`: Texto da pergunta.
+  - `options`: Opções de resposta, separadas por `;`.
+  - `correct_index`: Índice da resposta correta (0 a 3).
 
-#### Comunicação Cliente-Servidor
+### Comunicação Cliente-Servidor
 
 - O servidor e o cliente se comunicam via sockets TCP.
 - As questões e respostas são enviadas como strings codificadas em UTF-8.
