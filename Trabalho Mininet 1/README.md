@@ -3,6 +3,7 @@
 ## Criando a rede
 
 Para emular a topologia linear com 6 switchs, usando endereços MAC padronizados e enlaces de 25 Mbps, foi executado no shell do Mininet:
+
 ```bash
 sudo mn --topo=linear,6 --link=tc,bw=25 --mac
 ```
@@ -15,7 +16,7 @@ Isso já usa o controlador padrão do Mininet, portanto não é preciso especifi
 
 #### Execução do comando
 
-![Execução do comando para criação da rede](./images/Criação%20da%20rede.png)
+![Execução do comando para criação da rede](./images/init_net_command.png)
 
 ---
 
@@ -24,15 +25,19 @@ Isso já usa o controlador padrão do Mininet, portanto não é preciso especifi
 Após iniciar o Mininet, os seguintes comandos foram usados para obter uma visão geral dos nós, links, interfaces, IPs e MACs:
 
 - Comando `nodes`.
+
 ![Execução do comando nodes](./images/command_node.png)
 
 - Comando `net`.
+
 ![Execução do comando net](./images/command_net.png)
 
 - Comando `dump`.
+
 ![Execução do comando dump](./images/command_dump.png)
 
 - Comando `intfs`.
+
 ![Execução do comando intfs](./images/command_intfs.png)
 
 ### Detalhamento em cada host
