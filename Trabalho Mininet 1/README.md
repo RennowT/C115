@@ -47,7 +47,7 @@ Após iniciar o Mininet, os seguintes comandos foram usados para obter uma visã
 - Comando `intfs`.
 
 
-![Execução do comando intfs](./images/command_intfs.png)
+![Execução do comando intfs](./images/command_intfs1.png)
 
 
 ### Detalhamento em cada host
