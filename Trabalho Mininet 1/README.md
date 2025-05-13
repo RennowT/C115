@@ -16,7 +16,9 @@ Isso já usa o controlador padrão do Mininet, portanto não é preciso especifi
 
 #### Execução do comando
 
+
 ![Execução do comando para criação da rede](./images/init_net_command.png)
+
 
 ---
 
@@ -26,17 +28,24 @@ Após iniciar o Mininet, os seguintes comandos foram usados para obter uma visã
 
 - Comando `nodes`.
 
+
 ![Execução do comando nodes](./images/command_node.png)
+
 
 - Comando `net`.
 
+
 ![Execução do comando net](./images/command_net.png)
+
 
 - Comando `dump`.
 
+
 ![Execução do comando dump](./images/command_dump.png)
 
+
 - Comando `intfs`.
+
 
 ![Execução do comando intfs](./images/command_intfs.png)
 
@@ -47,11 +56,15 @@ Para obter informações detalhadas em um host específico (por exmplo, h1), foi
 
 - Comando `h1 ifconfig -a`.
 
+
 ![Execução do comando h1 ifconfig -a](./images/command_ifconfiga.png)
+
 
 - Comando `h1 ip a`.
 
+
 ![Execução do comando h1 ip a](./images/command_ip.png)
+
 
 
 ### Informações de portas nos switches
@@ -60,11 +73,15 @@ Para visualizar como os switches mapeiam portas e MACs:
 
 - Comando `sh ovs-ofctl show s1`.
 
+
 ![Execução do comando ovs-ofctl](./images/command_ovs-ofctl.png)
+
 
 - Comando `sh ovs-dpctl show`.
 
+
 ![Exwcução do comando ovs-dpctl](./images/command_ovs-spctl.png)
+
 
 ---
 
@@ -72,7 +89,9 @@ Para visualizar como os switches mapeiam portas e MACs:
 
 O comando `pingall` testa pings entre toos os pares de hosts da topologia.
 
+
 ![Execução do comando pingall](./images/command_pingall.png)
+
 
 ---
 
@@ -104,4 +123,6 @@ h2 iperf -c 10.0.0.1 -p 5555 -t 15 -i 1
 
 #### Execução dos comandos
 
+
 ![Execução dos comando de teste](./images/tests_commands.png)
+
