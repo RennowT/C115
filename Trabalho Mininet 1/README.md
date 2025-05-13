@@ -35,13 +35,13 @@ Após iniciar o Mininet, os seguintes comandos foram usados para obter uma visã
 - Comando `net`.
 
 
-![Execução do comando net](./images/command_net.png)
+![Execução do comando net](./images/command_net1.png)
 
 
 - Comando `dump`.
 
 
-![Execução do comando dump](./images/command_dump.png)
+![Execução do comando dump](./images/command_dump1.png)
 
 
 - Comando `intfs`.
@@ -57,7 +57,7 @@ Para obter informações detalhadas em um host específico (por exmplo, h1), foi
 - Comando `h1 ifconfig -a`.
 
 
-![Execução do comando h1 ifconfig -a](./images/command_ifconfiga.png)
+![Execução do comando h1 ifconfig -a](./images/command_ifconfiga1.png)
 
 
 - Comando `h1 ip a`.
@@ -80,7 +80,7 @@ Para visualizar como os switches mapeiam portas e MACs:
 - Comando `sh ovs-dpctl show`.
 
 
-![Exwcução do comando ovs-dpctl](./images/command_ovs-spctl.png)
+![Exwcução do comando ovs-dpctl](./images/command_ovs-dpctl.png)
 
 
 ---
