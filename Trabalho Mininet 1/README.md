@@ -14,11 +14,9 @@ sudo mn --topo=linear,6 --link=tc,bw=25 --mac
 
 Isso já usa o controlador padrão do Mininet, portanto não é preciso especificar o `--controller`.
 
-#### Execução do comando
-
+### Execução do comando
 
 ![Execução do comando para criação da rede](./images/init_net_command.png)
-
 
 ---
 
@@ -28,44 +26,31 @@ Após iniciar o Mininet, os seguintes comandos foram usados para obter uma visã
 
 - Comando `nodes`.
 
-
 ![Execução do comando nodes](./images/command_node.png)
-
 
 - Comando `net`.
 
-
 ![Execução do comando net](./images/command_net1.png)
-
 
 - Comando `dump`.
 
-
 ![Execução do comando dump](./images/command_dump1.png)
-
 
 - Comando `intfs`.
 
-
-![Execução do comando intfs](./images/command_intfs1.png)
-
+![Execução do comando intfs](./images/intfs.png)
 
 ### Detalhamento em cada host
 
-Para obter informações detalhadas em um host específico (por exmplo, h1), foi usado: 
+Para obter informações detalhadas em um host específico (por exmplo, h1), foi usado:
 
 - Comando `h1 ifconfig -a`.
 
-
 ![Execução do comando h1 ifconfig -a](./images/command_ifconfiga1.png)
-
 
 - Comando `h1 ip a`.
 
-
 ![Execução do comando h1 ip a](./images/command_ip.png)
-
-
 
 ### Informações de portas nos switches
 
@@ -73,15 +58,11 @@ Para visualizar como os switches mapeiam portas e MACs:
 
 - Comando `sh ovs-ofctl show s1`.
 
-
 ![Execução do comando ovs-ofctl](./images/command_ovs-ofctl.png)
-
 
 - Comando `sh ovs-dpctl show`.
 
-
 ![Exwcução do comando ovs-dpctl](./images/command_ovs-dpctl.png)
-
 
 ---
 
@@ -89,9 +70,7 @@ Para visualizar como os switches mapeiam portas e MACs:
 
 O comando `pingall` testa pings entre toos os pares de hosts da topologia.
 
-
 ![Execução do comando pingall](./images/command_pingall.png)
-
 
 ---
 
@@ -121,8 +100,6 @@ h2 iperf -c 10.0.0.1 -p 5555 -t 15 -i 1
 - `-t 15` define a duração do teste de 15 segundos.
 - `-i 1` define a geração do relatório a cada 1 segundo.
 
-#### Execução dos comandos
-
+### Execução dos comandos
 
 ![Execução dos comando de teste](./images/tests_commands.png)
-
