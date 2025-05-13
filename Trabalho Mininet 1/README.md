@@ -40,6 +40,7 @@ Após iniciar o Mininet, os seguintes comandos foram usados para obter uma visã
 
 ![Execução do comando intfs](./images/command_intfs.png)
 
+
 ### Detalhamento em cada host
 
 Para obter informações detalhadas em um host específico (por exmplo, h1), foi usado: 
