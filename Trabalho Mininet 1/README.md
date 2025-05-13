@@ -46,11 +46,12 @@ Para obter informações detalhadas em um host específico (por exmplo, h1), foi
 
 - Comando `h1 ifconfig -a`.
 
-![Execução do comando h1 ifconfig -a](./images/command_ifconfig.png)
+![Execução do comando h1 ifconfig -a](./images/command_ifconfiga.png)
 
 - Comando `h1 ip a`.
 
 ![Execução do comando h1 ip a](./images/command_ip.png)
+
 
 ### Informações de portas nos switches
 
